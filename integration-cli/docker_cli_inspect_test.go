@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/integration-cli/checker"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/integration-cli/checker"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

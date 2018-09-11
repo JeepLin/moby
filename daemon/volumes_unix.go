@@ -1,6 +1,6 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"fmt"
@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/mount"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"moby/container"
+	"moby/pkg/fileutils"
+	"moby/pkg/mount"
+	volumemounts "moby/volume/mounts"
 )
 
 // setupMounts iterates through each of the mount points for a container and

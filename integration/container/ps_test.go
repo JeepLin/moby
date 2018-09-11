@@ -1,13 +1,13 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "moby/integration/container"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/integration/internal/container"
+	"moby/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

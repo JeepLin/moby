@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "moby/daemon/cluster"
 
 import (
 	"net"

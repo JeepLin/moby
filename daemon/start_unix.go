@@ -1,6 +1,6 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"fmt"
@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/containerd/runtime/linux/runctypes"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
+	"moby/container"
+	"moby/errdefs"
 	"github.com/pkg/errors"
 )
 

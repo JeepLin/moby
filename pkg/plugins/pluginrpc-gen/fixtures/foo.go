@@ -1,9 +1,9 @@
-package foo // import "github.com/docker/docker/pkg/plugins/pluginrpc-gen/fixtures"
+package foo // import "moby/pkg/plugins/pluginrpc-gen/fixtures"
 
 import (
 	aliasedio "io"
 
-	"github.com/docker/docker/pkg/plugins/pluginrpc-gen/fixtures/otherfixture"
+	"moby/pkg/plugins/pluginrpc-gen/fixtures/otherfixture"
 )
 
 type wobble struct {

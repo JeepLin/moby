@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"moby/api/types"
+	"moby/api/types/swarm"
 	"github.com/pkg/errors"
 )
 

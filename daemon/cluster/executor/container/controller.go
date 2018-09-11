@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "moby/daemon/cluster/executor/container"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
+	"moby/api/types"
+	"moby/api/types/events"
+	executorpkg "moby/daemon/cluster/executor"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/libnetwork"
 	"github.com/docker/swarmkit/agent/exec"

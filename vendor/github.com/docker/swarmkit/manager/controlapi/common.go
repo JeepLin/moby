@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"moby/pkg/plugingetter"
 	"github.com/docker/libnetwork/driverapi"
 	"github.com/docker/libnetwork/ipamapi"
 	"github.com/docker/swarmkit/api"

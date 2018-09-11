@@ -7,10 +7,10 @@ import (
 
 	"bytes"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/errdefs"
+	"moby/api/types/plugins/logdriver"
+	"moby/daemon/logger"
+	"moby/daemon/logger/loggerutils"
+	"moby/errdefs"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "moby/api/server/router/container"
 
 import (
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/router"
+	"moby/api/server/httputils"
+	"moby/api/server/router"
 )
 
 // containerRouter is a router to talk with the container controller

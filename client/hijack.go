@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 	"github.com/docker/go-connections/sockets"
 	"github.com/pkg/errors"
 )

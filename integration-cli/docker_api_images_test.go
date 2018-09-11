@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/client"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/cli/build"
+	"moby/internal/test/request"
+	"moby/pkg/parsers/kernel"
 	"github.com/go-check/check"
 )
 

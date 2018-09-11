@@ -1,7 +1,7 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "moby/api/types/swarm"
 
 import (
-	"github.com/docker/docker/api/types/network"
+	"moby/api/types/network"
 )
 
 // Endpoint represents an endpoint.

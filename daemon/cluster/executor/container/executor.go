@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "moby/daemon/cluster/executor/container"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/controllers/plugin"
-	"github.com/docker/docker/daemon/cluster/convert"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
-	clustertypes "github.com/docker/docker/daemon/cluster/provider"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/api/types/network"
+	swarmtypes "moby/api/types/swarm"
+	"moby/daemon/cluster/controllers/plugin"
+	"moby/daemon/cluster/convert"
+	executorpkg "moby/daemon/cluster/executor"
+	clustertypes "moby/daemon/cluster/provider"
 	networktypes "github.com/docker/libnetwork/types"
 	"github.com/docker/swarmkit/agent"
 	"github.com/docker/swarmkit/agent/exec"

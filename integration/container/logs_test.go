@@ -1,14 +1,14 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "moby/integration/container"
 
 import (
 	"context"
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/stdcopy"
+	"moby/api/types"
+	"moby/integration/internal/container"
+	"moby/internal/test/request"
+	"moby/pkg/stdcopy"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

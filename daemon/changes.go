@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"errors"
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
+	"moby/pkg/archive"
 )
 
 // ContainerChanges returns a list of container fs changes

@@ -17,20 +17,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	"moby/api/types"
+	containertypes "moby/api/types/container"
+	mounttypes "moby/api/types/mount"
+	networktypes "moby/api/types/network"
+	"moby/api/types/versions"
+	"moby/client"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/cli/build"
+	"moby/internal/test/request"
+	"moby/pkg/ioutils"
+	"moby/pkg/mount"
+	"moby/pkg/stringid"
+	"moby/volume"
 	"github.com/docker/go-connections/nat"
 	"github.com/go-check/check"
 	"gotest.tools/assert"
@@ -1285,7 +1285,7 @@ func (s *DockerSuite) TestContainerAPIDeleteRemoveVolume(c *check.C) {
 	c.Assert(os.IsNotExist(err), checker.True, check.Commentf("expected to get ErrNotExist error, got %v", err))
 }
 
-// Regression test for https://github.com/docker/docker/issues/6231
+// Regression test for https://moby/issues/6231
 func (s *DockerSuite) TestContainerAPIChunkedEncoding(c *check.C) {
 
 	config := map[string]interface{}{

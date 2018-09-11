@@ -1,6 +1,6 @@
 // +build linux
 
-package copy // import "github.com/docker/docker/daemon/graphdriver/copy"
+package copy // import "moby/daemon/graphdriver/copy"
 
 /*
 #include <linux/fs.h>
@@ -19,8 +19,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/pools"
+	"moby/pkg/system"
 	rsystem "github.com/opencontainers/runc/libcontainer/system"
 	"golang.org/x/sys/unix"
 )

@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 // This file contains the dispatchers for each command. Note that
 // `nullDispatch` is not actually a command, but support for commands we parse
@@ -15,15 +15,15 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/signal"
-	"github.com/docker/docker/pkg/system"
+	"moby/api"
+	"moby/api/types/container"
+	"moby/api/types/strslice"
+	"moby/builder"
+	"moby/errdefs"
+	"moby/image"
+	"moby/pkg/jsonmessage"
+	"moby/pkg/signal"
+	"moby/pkg/system"
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"

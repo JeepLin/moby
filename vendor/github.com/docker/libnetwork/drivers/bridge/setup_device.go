@@ -3,7 +3,7 @@ package bridge
 import (
 	"fmt"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"moby/pkg/parsers/kernel"
 	"github.com/docker/libnetwork/netutils"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"

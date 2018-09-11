@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/stdcopy"
+	"moby/api/types"
+	"moby/client"
+	"moby/integration-cli/checker"
+	"moby/internal/test/request"
+	"moby/pkg/stdcopy"
 	"github.com/go-check/check"
 )
 

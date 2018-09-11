@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 	"encoding/json"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"moby/api/types"
+	"moby/api/types/swarm"
 )
 
 // SecretCreate creates a new Secret.

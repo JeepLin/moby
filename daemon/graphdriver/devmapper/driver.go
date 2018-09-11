@@ -1,6 +1,6 @@
 // +build linux
 
-package devmapper // import "github.com/docker/docker/daemon/graphdriver/devmapper"
+package devmapper // import "moby/daemon/graphdriver/devmapper"
 
 import (
 	"fmt"
@@ -9,12 +9,12 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/devicemapper"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/mount"
+	"moby/daemon/graphdriver"
+	"moby/pkg/containerfs"
+	"moby/pkg/devicemapper"
+	"moby/pkg/idtools"
+	"moby/pkg/locker"
+	"moby/pkg/mount"
 	"github.com/docker/go-units"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

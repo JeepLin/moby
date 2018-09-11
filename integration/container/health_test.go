@@ -1,15 +1,15 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "moby/integration/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"moby/api/types"
+	containertypes "moby/api/types/container"
+	"moby/client"
+	"moby/integration/internal/container"
+	"moby/internal/test/request"
 	"gotest.tools/poll"
 )
 

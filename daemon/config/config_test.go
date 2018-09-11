@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "moby/daemon/config"
 
 import (
 	"io/ioutil"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/daemon/discovery"
-	"github.com/docker/docker/opts"
+	"moby/daemon/discovery"
+	"moby/opts"
 	"github.com/spf13/pflag"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

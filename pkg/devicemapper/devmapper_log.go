@@ -1,6 +1,6 @@
 // +build linux,cgo
 
-package devicemapper // import "github.com/docker/docker/pkg/devicemapper"
+package devicemapper // import "moby/pkg/devicemapper"
 
 import "C"
 

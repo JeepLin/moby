@@ -1,12 +1,12 @@
-package exec // import "github.com/docker/docker/daemon/exec"
+package exec // import "moby/daemon/exec"
 
 import (
 	"runtime"
 	"sync"
 
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/container/stream"
+	"moby/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 

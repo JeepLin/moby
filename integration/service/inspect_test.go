@@ -1,16 +1,16 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "moby/integration/service"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/swarm"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/api/types/filters"
+	swarmtypes "moby/api/types/swarm"
+	"moby/client"
+	"moby/integration/internal/swarm"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

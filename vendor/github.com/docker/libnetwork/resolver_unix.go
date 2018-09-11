@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/docker/docker/pkg/reexec"
+	"moby/pkg/reexec"
 	"github.com/docker/libnetwork/iptables"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netns"

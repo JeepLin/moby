@@ -1,10 +1,10 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "moby/plugin"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/plugin/v2"
+	"moby/pkg/plugins"
+	"moby/plugin/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 )
 

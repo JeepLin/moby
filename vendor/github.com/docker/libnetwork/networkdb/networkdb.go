@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/armon/go-radix"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/pkg/stringid"
 	"github.com/docker/go-events"
 	"github.com/docker/libnetwork/types"
 	"github.com/hashicorp/memberlist"

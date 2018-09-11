@@ -1,4 +1,4 @@
-package discovery // import "github.com/docker/docker/daemon/discovery"
+package discovery // import "moby/daemon/discovery"
 
 import (
 	"errors"
@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/pkg/discovery"
+	"moby/pkg/discovery"
 	"github.com/sirupsen/logrus"
 
 	// Register the libkv backends for discovery.
-	_ "github.com/docker/docker/pkg/discovery/kv"
+	_ "moby/pkg/discovery/kv"
 )
 
 const (

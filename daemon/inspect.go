@@ -1,18 +1,18 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"errors"
 	"fmt"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
+	"moby/api/types"
+	"moby/api/types/backend"
+	networktypes "moby/api/types/network"
+	"moby/api/types/versions"
+	"moby/api/types/versions/v1p20"
+	"moby/container"
+	"moby/daemon/network"
+	"moby/errdefs"
 	"github.com/docker/go-connections/nat"
 )
 

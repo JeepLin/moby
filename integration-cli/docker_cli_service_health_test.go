@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/executor/container"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"moby/api/types/swarm"
+	"moby/daemon/cluster/executor/container"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/cli/build"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )

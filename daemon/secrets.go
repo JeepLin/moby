@@ -1,7 +1,7 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
-	swarmtypes "github.com/docker/docker/api/types/swarm"
+	swarmtypes "moby/api/types/swarm"
 	"github.com/sirupsen/logrus"
 )
 

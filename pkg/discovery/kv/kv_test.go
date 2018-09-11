@@ -1,4 +1,4 @@
-package kv // import "github.com/docker/docker/pkg/discovery/kv"
+package kv // import "moby/pkg/discovery/kv"
 
 import (
 	"errors"
@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/discovery"
+	"moby/pkg/discovery"
 	"github.com/docker/libkv"
 	"github.com/docker/libkv/store"
 	"github.com/go-check/check"

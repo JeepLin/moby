@@ -1,4 +1,4 @@
-package environment // import "github.com/docker/docker/internal/test/environment"
+package environment // import "moby/internal/test/environment"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test/fixtures/load"
+	"moby/api/types"
+	"moby/client"
+	"moby/internal/test/fixtures/load"
 	"github.com/pkg/errors"
 )
 

@@ -4,7 +4,7 @@ package ipamapi
 import (
 	"net"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"moby/pkg/plugingetter"
 	"github.com/docker/libnetwork/discoverapi"
 	"github.com/docker/libnetwork/types"
 )

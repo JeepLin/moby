@@ -1,9 +1,9 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // CheckpointCreate creates a checkpoint from the given container with the given name

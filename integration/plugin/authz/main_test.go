@@ -1,6 +1,6 @@
 // +build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "moby/integration/plugin/authz"
 
 import (
 	"encoding/json"
@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/plugins"
+	"moby/internal/test/daemon"
+	"moby/internal/test/environment"
+	"moby/pkg/authorization"
+	"moby/pkg/plugins"
 	"gotest.tools/skip"
 )
 

@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // DiskUsage requests the current data usage from the daemon

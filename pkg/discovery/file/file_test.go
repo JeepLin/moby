@@ -1,11 +1,11 @@
-package file // import "github.com/docker/docker/pkg/discovery/file"
+package file // import "moby/pkg/discovery/file"
 
 import (
 	"io/ioutil"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/pkg/discovery"
+	"moby/pkg/discovery"
 
 	"github.com/go-check/check"
 )

@@ -1,4 +1,4 @@
-package testutil // import "github.com/docker/docker/internal/testutil"
+package testutil // import "moby/internal/testutil"
 
 import "math/rand"
 

@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "moby/pkg/system"
 
 import (
 	"os"

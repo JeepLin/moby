@@ -1,8 +1,8 @@
 // +build !linux
 
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "moby/daemon/graphdriver/vfs"
 
-import "github.com/docker/docker/pkg/chrootarchive"
+import "moby/pkg/chrootarchive"
 
 func dirCopy(srcDir, dstDir string) error {
 	return chrootarchive.NewArchiver(nil).CopyWithTar(srcDir, dstDir)

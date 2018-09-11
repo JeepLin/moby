@@ -1,9 +1,9 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "moby/plugin"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/plugin/v2"
+	"moby/plugin/v2"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

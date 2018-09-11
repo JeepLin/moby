@@ -53,7 +53,7 @@
 
 // TODO: Grab logs from SVM at terminate or errors
 
-package lcow // import "github.com/docker/docker/daemon/graphdriver/lcow"
+package lcow // import "moby/daemon/graphdriver/lcow"
 
 import (
 	"bytes"
@@ -72,12 +72,12 @@ import (
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/opengcs/client"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/system"
+	"moby/daemon/graphdriver"
+	"moby/pkg/archive"
+	"moby/pkg/containerfs"
+	"moby/pkg/idtools"
+	"moby/pkg/ioutils"
+	"moby/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

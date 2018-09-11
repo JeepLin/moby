@@ -1,7 +1,7 @@
-package cache // import "github.com/docker/docker/image/cache"
+package cache // import "moby/image/cache"
 
 import (
-	"github.com/docker/docker/api/types/container"
+	"moby/api/types/container"
 )
 
 // compare two Config struct. Do not compare the "Image" nor "Hostname" fields

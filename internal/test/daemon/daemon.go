@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/internal/test/daemon"
+package daemon // import "moby/internal/test/daemon"
 
 import (
 	"context"
@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/api/types"
+	"moby/api/types/events"
+	"moby/client"
+	"moby/internal/test"
+	"moby/internal/test/request"
+	"moby/opts"
+	"moby/pkg/ioutils"
+	"moby/pkg/stringid"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"

@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/internal/test/daemon"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/daemon"
+	testdaemon "moby/internal/test/daemon"
 	"github.com/go-check/check"
 )
 

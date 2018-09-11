@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"fmt"
@@ -7,11 +7,11 @@ import (
 	"runtime"
 	"strings"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/system"
+	containertypes "moby/api/types/container"
+	"moby/container"
+	"moby/oci"
+	"moby/pkg/sysinfo"
+	"moby/pkg/system"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"

@@ -1,6 +1,6 @@
 // +build linux
 
-package overlay // import "github.com/docker/docker/daemon/graphdriver/overlay"
+package overlay // import "moby/daemon/graphdriver/overlay"
 
 import (
 	"bufio"
@@ -14,17 +14,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/copy"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/fsutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/system"
+	"moby/daemon/graphdriver"
+	"moby/daemon/graphdriver/copy"
+	"moby/daemon/graphdriver/overlayutils"
+	"moby/pkg/archive"
+	"moby/pkg/containerfs"
+	"moby/pkg/fsutils"
+	"moby/pkg/idtools"
+	"moby/pkg/locker"
+	"moby/pkg/mount"
+	"moby/pkg/parsers"
+	"moby/pkg/system"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"

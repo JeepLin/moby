@@ -1,11 +1,11 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "moby/integration/network"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"moby/internal/test/environment"
 )
 
 var testEnv *environment.Execution

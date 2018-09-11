@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/daemon"
+	"moby/api/types"
+	"moby/integration/internal/container"
+	"moby/internal/test/daemon"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

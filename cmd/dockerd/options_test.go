@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	cliconfig "github.com/docker/docker/cli/config"
-	"github.com/docker/docker/daemon/config"
+	cliconfig "moby/cli/config"
+	"moby/daemon/config"
 	"github.com/spf13/pflag"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

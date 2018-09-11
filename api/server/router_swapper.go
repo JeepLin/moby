@@ -1,4 +1,4 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "moby/api/server"
 
 import (
 	"net/http"

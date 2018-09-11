@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "moby/layer"
 
 import (
 	"fmt"

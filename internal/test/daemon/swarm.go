@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/internal/test"
+	"moby/api/types/swarm"
+	"moby/internal/test"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 )

@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/container"
+	"moby/api/types/container"
 )
 
 // ContainerDiff shows differences in a container filesystem since it was started.

@@ -1,9 +1,9 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "moby/daemon/logger/loggerutils"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"moby/daemon/logger"
 )
 
 func TestParseLogTagDefaultTag(t *testing.T) {

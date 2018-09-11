@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	net "github.com/docker/docker/integration/internal/network"
-	n "github.com/docker/docker/integration/network"
-	"github.com/docker/docker/internal/test/daemon"
+	"moby/client"
+	"moby/integration/internal/container"
+	net "moby/integration/internal/network"
+	n "moby/integration/network"
+	"moby/internal/test/daemon"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

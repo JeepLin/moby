@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

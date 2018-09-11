@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/system"
 	"github.com/docker/libnetwork/datastore"
 	"github.com/docker/libnetwork/discoverapi"
 	"github.com/docker/libnetwork/driverapi"

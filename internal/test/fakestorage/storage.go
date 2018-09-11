@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/docker/docker/internal/test/fakestorage"
+package fakestorage // import "moby/internal/test/fakestorage"
 
 import (
 	"context"
@@ -11,14 +11,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
-	"github.com/docker/docker/internal/test/environment"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/internal/testutil"
+	"moby/api/types"
+	containertypes "moby/api/types/container"
+	"moby/client"
+	"moby/internal/test"
+	"moby/internal/test/environment"
+	"moby/internal/test/fakecontext"
+	"moby/internal/test/request"
+	"moby/internal/testutil"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/assert"
 )

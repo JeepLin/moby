@@ -1,10 +1,10 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "moby/volume/mounts"
 
 import (
 	"errors"
 	"runtime"
 
-	"github.com/docker/docker/api/types/mount"
+	"moby/api/types/mount"
 )
 
 const (

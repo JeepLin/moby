@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/container"
-	daemonevents "github.com/docker/docker/daemon/events"
+	"moby/api/types/events"
+	"moby/api/types/filters"
+	"moby/container"
+	daemonevents "moby/daemon/events"
 	"github.com/docker/libnetwork"
 	swarmapi "github.com/docker/swarmkit/api"
 	gogotypes "github.com/gogo/protobuf/types"

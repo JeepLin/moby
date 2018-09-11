@@ -3,8 +3,8 @@ package daemon
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test"
+	"moby/api/types"
+	"moby/internal/test"
 	"gotest.tools/assert"
 )
 

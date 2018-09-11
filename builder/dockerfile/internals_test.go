@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
+	"moby/api/types"
+	"moby/api/types/backend"
+	"moby/api/types/container"
+	"moby/builder"
+	"moby/builder/remotecontext"
+	"moby/pkg/archive"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

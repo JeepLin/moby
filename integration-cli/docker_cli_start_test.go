@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
 	"github.com/go-check/check"
 	"gotest.tools/icmd"
 )
 
-// Regression test for https://github.com/docker/docker/issues/7843
+// Regression test for https://moby/issues/7843
 func (s *DockerSuite) TestStartAttachReturnsOnError(c *check.C) {
 	// Windows does not support link
 	testRequires(c, DaemonIsLinux)

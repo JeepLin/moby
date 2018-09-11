@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "moby/api/server/router/container"
 
 import (
 	"compress/flate"
@@ -9,9 +9,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
+	"moby/api/server/httputils"
+	"moby/api/types"
+	"moby/api/types/versions"
 	gddohttputil "github.com/golang/gddo/httputil"
 )
 

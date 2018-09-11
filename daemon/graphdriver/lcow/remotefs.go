@@ -1,6 +1,6 @@
 // +build windows
 
-package lcow // import "github.com/docker/docker/daemon/graphdriver/lcow"
+package lcow // import "moby/daemon/graphdriver/lcow"
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ import (
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/opengcs/service/gcsutils/remotefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
+	"moby/pkg/archive"
+	"moby/pkg/containerfs"
 	"github.com/sirupsen/logrus"
 )
 

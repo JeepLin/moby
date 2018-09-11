@@ -1,13 +1,13 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "moby/integration/network"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/internal/test/request"
+	"moby/api/types"
+	"moby/api/types/versions"
+	"moby/integration/internal/network"
+	"moby/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

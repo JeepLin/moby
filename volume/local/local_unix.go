@@ -3,7 +3,7 @@
 // Package local provides the default implementation for volumes. It
 // is used to mount data volume containers and directories local to
 // the host server.
-package local // import "github.com/docker/docker/volume/local"
+package local // import "moby/volume/local"
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/docker/docker/pkg/mount"
+	"moby/pkg/mount"
 )
 
 var (

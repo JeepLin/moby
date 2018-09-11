@@ -1,16 +1,16 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "moby/integration/network"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/integration/internal/swarm"
+	"moby/api/types"
+	"moby/api/types/filters"
+	swarmtypes "moby/api/types/swarm"
+	"moby/client"
+	"moby/integration/internal/network"
+	"moby/integration/internal/swarm"
 	"gotest.tools/assert"
 	"gotest.tools/poll"
 )

@@ -1,6 +1,6 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "moby/api/server/router/checkpoint"
 
-import "github.com/docker/docker/api/types"
+import "moby/api/types"
 
 // Backend for Checkpoint
 type Backend interface {

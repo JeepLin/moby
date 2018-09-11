@@ -1,6 +1,6 @@
 // +build !windows
 
-package hack // import "github.com/docker/docker/cmd/dockerd/hack"
+package hack // import "moby/cmd/dockerd/hack"
 
 import "net"
 

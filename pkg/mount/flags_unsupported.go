@@ -1,6 +1,6 @@
 // +build !linux,!freebsd freebsd,!cgo
 
-package mount // import "github.com/docker/docker/pkg/mount"
+package mount // import "moby/pkg/mount"
 
 // These flags are unsupported.
 const (

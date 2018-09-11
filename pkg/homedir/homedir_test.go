@@ -1,4 +1,4 @@
-package homedir // import "github.com/docker/docker/pkg/homedir"
+package homedir // import "moby/pkg/homedir"
 
 import (
 	"path/filepath"

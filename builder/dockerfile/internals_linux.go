@@ -1,12 +1,12 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import (
 	"path/filepath"
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/symlink"
+	"moby/pkg/idtools"
+	"moby/pkg/symlink"
 	lcUser "github.com/opencontainers/runc/libcontainer/user"
 	"github.com/pkg/errors"
 )

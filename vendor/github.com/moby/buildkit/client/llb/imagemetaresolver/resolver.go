@@ -8,7 +8,7 @@ import (
 	"github.com/containerd/containerd/platforms"
 	"github.com/containerd/containerd/remotes"
 	"github.com/containerd/containerd/remotes/docker"
-	"github.com/docker/docker/pkg/locker"
+	"moby/pkg/locker"
 	"github.com/moby/buildkit/client/llb"
 	gw "github.com/moby/buildkit/frontend/gateway/client"
 	"github.com/moby/buildkit/util/contentutil"

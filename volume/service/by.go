@@ -1,8 +1,8 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "moby/volume/service"
 
 import (
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/volume"
+	"moby/api/types/filters"
+	"moby/volume"
 )
 
 // By is an interface which is used to implement filtering on volumes.

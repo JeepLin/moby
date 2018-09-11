@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/cli/build"
+	"moby/internal/test/fakecontext"
+	"moby/pkg/stringid"
 	"github.com/docker/go-connections/nat"
 	"github.com/go-check/check"
 )

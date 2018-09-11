@@ -1,10 +1,10 @@
-package build // import "github.com/docker/docker/integration-cli/cli/build"
+package build // import "moby/integration-cli/cli/build"
 
 import (
 	"io"
 	"strings"
 
-	"github.com/docker/docker/internal/test/fakecontext"
+	"moby/internal/test/fakecontext"
 	"gotest.tools/icmd"
 )
 

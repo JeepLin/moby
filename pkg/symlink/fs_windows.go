@@ -1,4 +1,4 @@
-package symlink // import "github.com/docker/docker/pkg/symlink"
+package symlink // import "moby/pkg/symlink"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/longpath"
+	"moby/pkg/longpath"
 	"golang.org/x/sys/windows"
 )
 

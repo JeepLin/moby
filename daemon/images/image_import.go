@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "moby/daemon/images"
 
 import (
 	"encoding/json"
@@ -10,16 +10,16 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder/dockerfile"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
+	"moby/api/types/container"
+	"moby/builder/dockerfile"
+	"moby/builder/remotecontext"
+	"moby/dockerversion"
+	"moby/errdefs"
+	"moby/image"
+	"moby/layer"
+	"moby/pkg/archive"
+	"moby/pkg/progress"
+	"moby/pkg/streamformatter"
 	"github.com/pkg/errors"
 )
 

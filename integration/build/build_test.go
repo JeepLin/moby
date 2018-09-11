@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "moby/integration/build"
 
 import (
 	"archive/tar"
@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/internal/test/fakecontext"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/api/types/versions"
+	"moby/internal/test/fakecontext"
+	"moby/internal/test/request"
+	"moby/pkg/jsonmessage"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

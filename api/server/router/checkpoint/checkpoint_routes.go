@@ -1,12 +1,12 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "moby/api/server/router/checkpoint"
 
 import (
 	"context"
 	"encoding/json"
 	"net/http"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
+	"moby/api/server/httputils"
+	"moby/api/types"
 )
 
 func (s *checkpointRouter) postContainerCheckpoint(ctx context.Context, w http.ResponseWriter, r *http.Request, vars map[string]string) error {

@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/internal/test/fixtures/plugin"
+	"moby/api/types"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/daemon"
+	"moby/internal/test/fixtures/plugin"
 	"github.com/go-check/check"
 )
 
@@ -340,7 +340,7 @@ func (ps *DockerPluginSuite) TestPluginInspect(c *check.C) {
 	c.Assert(err, checker.NotNil)
 }
 
-// Test case for https://github.com/docker/docker/pull/29186#discussion_r91277345
+// Test case for https://moby/pull/29186#discussion_r91277345
 func (s *DockerSuite) TestPluginInspectOnWindows(c *check.C) {
 	// This test should work on Windows only
 	testRequires(c, DaemonIsWindows)

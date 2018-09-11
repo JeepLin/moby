@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "moby/pkg/archive"
 
 import (
 	"bytes"
@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

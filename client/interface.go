@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/image"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"moby/api/types"
+	containertypes "moby/api/types/container"
+	"moby/api/types/events"
+	"moby/api/types/filters"
+	"moby/api/types/image"
+	networktypes "moby/api/types/network"
+	"moby/api/types/registry"
+	"moby/api/types/swarm"
+	volumetypes "moby/api/types/volume"
 )
 
 // CommonAPIClient is the common methods between stable and experimental versions of APIClient.

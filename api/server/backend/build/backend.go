@@ -1,17 +1,17 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "moby/api/server/backend/build"
 
 import (
 	"context"
 	"fmt"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	buildkit "github.com/docker/docker/builder/builder-next"
-	"github.com/docker/docker/builder/fscache"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/api/types"
+	"moby/api/types/backend"
+	"moby/builder"
+	buildkit "moby/builder/builder-next"
+	"moby/builder/fscache"
+	"moby/image"
+	"moby/pkg/stringid"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

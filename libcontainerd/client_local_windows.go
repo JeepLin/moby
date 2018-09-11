@@ -1,4 +1,4 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "moby/libcontainerd"
 
 import (
 	"context"
@@ -18,8 +18,8 @@ import (
 	opengcs "github.com/Microsoft/opengcs/client"
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/sysinfo"
+	"moby/pkg/system"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

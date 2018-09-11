@@ -1,6 +1,6 @@
-package sysinfo // import "github.com/docker/docker/pkg/sysinfo"
+package sysinfo // import "moby/pkg/sysinfo"
 
-import "github.com/docker/docker/pkg/parsers"
+import "moby/pkg/parsers"
 
 // SysInfo stores information about which features a kernel supports.
 // TODO Windows: Factor out platform specific capabilities.

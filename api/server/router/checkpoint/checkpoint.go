@@ -1,8 +1,8 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "moby/api/server/router/checkpoint"
 
 import (
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/router"
+	"moby/api/server/httputils"
+	"moby/api/server/router"
 )
 
 // checkpointRouter is a router to talk with the checkpoint controller

@@ -18,7 +18,7 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/containerd/containerd/mount"
-	"github.com/docker/docker/pkg/locker"
+	"moby/pkg/locker"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/cache/metadata"
 	"github.com/moby/buildkit/client"

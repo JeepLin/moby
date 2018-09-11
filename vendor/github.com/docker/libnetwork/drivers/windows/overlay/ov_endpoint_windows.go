@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/system"
 	"github.com/docker/libnetwork/driverapi"
 	"github.com/docker/libnetwork/drivers/windows"
 	"github.com/docker/libnetwork/netlabel"

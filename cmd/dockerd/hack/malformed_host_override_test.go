@@ -1,6 +1,6 @@
 // +build !windows
 
-package hack // import "github.com/docker/docker/cmd/dockerd/hack"
+package hack // import "moby/cmd/dockerd/hack"
 
 import (
 	"bytes"
@@ -43,7 +43,7 @@ func TestHeaderOverrideHack(t *testing.T) {
 		},
 	}
 
-	// Test for https://github.com/docker/docker/issues/23045
+	// Test for https://moby/issues/23045
 	h0 := "GET /foo\nUser-Agent: Docker\r\n\r\n"
 	h0 = h0 + strings.Repeat("a", 4096-len(h0)-1) + "\n"
 	tests = append(tests, [2][]byte{[]byte(h0), []byte(h0)})

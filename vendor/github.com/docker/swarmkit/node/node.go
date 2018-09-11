@@ -18,7 +18,7 @@ import (
 	"github.com/docker/swarmkit/identity"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/pkg/plugingetter"
+	"moby/pkg/plugingetter"
 	metrics "github.com/docker/go-metrics"
 	"github.com/docker/swarmkit/agent"
 	"github.com/docker/swarmkit/agent/exec"

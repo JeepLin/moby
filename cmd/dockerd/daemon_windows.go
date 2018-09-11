@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/libcontainerd/supervisor"
+	"moby/libcontainerd/supervisor"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows"
 )

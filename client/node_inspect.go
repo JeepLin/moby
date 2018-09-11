@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/docker/docker/api/types/swarm"
+	"moby/api/types/swarm"
 )
 
 // NodeInspectWithRaw returns the node information.

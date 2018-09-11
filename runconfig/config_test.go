@@ -1,4 +1,4 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "moby/runconfig"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
+	"moby/api/types/container"
+	networktypes "moby/api/types/network"
+	"moby/api/types/strslice"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

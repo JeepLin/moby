@@ -1,9 +1,9 @@
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "moby/api/server/router/system"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/builder/builder-next"
-	"github.com/docker/docker/builder/fscache"
+	"moby/api/server/router"
+	"moby/builder/builder-next"
+	"moby/builder/fscache"
 )
 
 // systemRouter provides information about the Docker system overall.

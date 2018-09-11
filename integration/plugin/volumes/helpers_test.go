@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test/fixtures/plugin"
-	"github.com/docker/docker/pkg/locker"
+	"moby/api/types"
+	"moby/internal/test/fixtures/plugin"
+	"moby/pkg/locker"
 	"github.com/pkg/errors"
 )
 

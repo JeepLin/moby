@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"github.com/Microsoft/opengcs/client"
-	"github.com/docker/docker/container"
+	"moby/container"
 )
 
 func (daemon *Daemon) getLibcontainerdCreateOptions(container *container.Container) (interface{}, error) {

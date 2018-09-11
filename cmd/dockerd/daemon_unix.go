@@ -11,9 +11,9 @@ import (
 	"strconv"
 
 	"github.com/containerd/containerd/runtime/v1/linux"
-	"github.com/docker/docker/cmd/dockerd/hack"
-	"github.com/docker/docker/daemon"
-	"github.com/docker/docker/libcontainerd/supervisor"
+	"moby/cmd/dockerd/hack"
+	"moby/daemon"
+	"moby/libcontainerd/supervisor"
 	"github.com/docker/libnetwork/portallocator"
 	"golang.org/x/sys/unix"
 )

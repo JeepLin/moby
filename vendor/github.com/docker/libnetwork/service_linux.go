@@ -14,7 +14,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/pkg/reexec"
+	"moby/pkg/reexec"
 	"github.com/docker/libnetwork/iptables"
 	"github.com/docker/libnetwork/ipvs"
 	"github.com/docker/libnetwork/ns"

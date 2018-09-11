@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "moby/integration/container"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/internal/test/request"
+	"moby/client"
+	"moby/integration/internal/container"
+	"moby/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

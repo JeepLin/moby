@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // PluginCreate creates a plugin

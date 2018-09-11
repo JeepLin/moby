@@ -1,6 +1,6 @@
 // +build !windows
 
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "moby/libcontainerd"
 
 import (
 	"context"
@@ -27,8 +27,8 @@ import (
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/runtime/linux/runctypes"
 	"github.com/containerd/typeurl"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"moby/errdefs"
+	"moby/pkg/ioutils"
 	"github.com/opencontainers/image-spec/specs-go/v1"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

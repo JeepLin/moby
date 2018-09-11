@@ -1,4 +1,4 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "moby/volume/service"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/volume"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/service/opts"
-	volumetestutils "github.com/docker/docker/volume/testutils"
+	"moby/volume"
+	volumedrivers "moby/volume/drivers"
+	"moby/volume/service/opts"
+	volumetestutils "moby/volume/testutils"
 	"gotest.tools/assert"
 )
 

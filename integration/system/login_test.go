@@ -1,12 +1,12 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "moby/integration/system"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/requirement"
-	"github.com/docker/docker/internal/test/request"
+	"moby/api/types"
+	"moby/integration/internal/requirement"
+	"moby/internal/test/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

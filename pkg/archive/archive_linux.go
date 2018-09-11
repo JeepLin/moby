@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,12 +1,12 @@
 // +build linux freebsd
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "moby/daemon/config"
 
 import (
 	"fmt"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/opts"
+	containertypes "moby/api/types/container"
+	"moby/opts"
 	"github.com/docker/go-units"
 )
 

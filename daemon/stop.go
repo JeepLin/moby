@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"context"
 	"time"
 
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
+	containerpkg "moby/container"
+	"moby/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

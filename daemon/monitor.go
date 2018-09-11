@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/libcontainerd"
-	"github.com/docker/docker/restartmanager"
+	"moby/api/types"
+	"moby/container"
+	"moby/libcontainerd"
+	"moby/restartmanager"
 	"github.com/sirupsen/logrus"
 )
 

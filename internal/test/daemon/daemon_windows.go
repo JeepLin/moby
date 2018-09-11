@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/internal/test/daemon"
+package daemon // import "moby/internal/test/daemon"
 
 import (
 	"fmt"

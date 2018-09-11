@@ -6,11 +6,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/client"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/api/types/mount"
+	"moby/api/types/volume"
+	"moby/client"
 )
 
 func createTar(data map[string][]byte) (io.Reader, error) {

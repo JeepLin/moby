@@ -1,15 +1,15 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/builder"
+	containerpkg "moby/container"
+	"moby/pkg/stringid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

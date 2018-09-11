@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "moby/integration/container"
 
 import (
 	"context"
@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test/request"
-	"github.com/docker/docker/pkg/system"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/api/types/mount"
+	"moby/api/types/network"
+	"moby/client"
+	"moby/internal/test/request"
+	"moby/pkg/system"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

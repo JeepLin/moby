@@ -1,12 +1,12 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/idtools"
+	"moby/api/types"
+	"moby/pkg/idtools"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

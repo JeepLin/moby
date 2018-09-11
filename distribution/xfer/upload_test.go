@@ -1,4 +1,4 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "moby/distribution/xfer"
 
 import (
 	"context"
@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/docker/distribution"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
+	"moby/layer"
+	"moby/pkg/progress"
 )
 
 const maxUploadConcurrency = 3

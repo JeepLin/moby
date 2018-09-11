@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // PluginRemove removes a plugin

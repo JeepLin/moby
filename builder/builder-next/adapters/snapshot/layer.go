@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
+	"moby/layer"
+	"moby/pkg/ioutils"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

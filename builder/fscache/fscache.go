@@ -1,4 +1,4 @@
-package fscache // import "github.com/docker/docker/builder/fscache"
+package fscache // import "moby/builder/fscache"
 
 import (
 	"archive/tar"
@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/tarsum"
+	"moby/builder"
+	"moby/builder/remotecontext"
+	"moby/pkg/archive"
+	"moby/pkg/directory"
+	"moby/pkg/stringid"
+	"moby/pkg/tarsum"
 	"github.com/moby/buildkit/session/filesync"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -1,4 +1,4 @@
-package fsutils // import "github.com/docker/docker/pkg/fsutils"
+package fsutils // import "moby/pkg/fsutils"
 
 import (
 	"fmt"

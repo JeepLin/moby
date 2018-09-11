@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/internal/test/request"
+	"moby/api"
+	"moby/api/types/versions"
+	"moby/integration-cli/checker"
+	"moby/internal/test/request"
 	"github.com/go-check/check"
 )
 

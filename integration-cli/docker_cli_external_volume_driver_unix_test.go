@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	"moby/api/types"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/daemon"
+	testdaemon "moby/internal/test/daemon"
+	"moby/pkg/stringid"
+	"moby/volume"
 	"github.com/go-check/check"
 )
 

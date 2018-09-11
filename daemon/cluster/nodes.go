@@ -1,12 +1,12 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "moby/daemon/cluster"
 
 import (
 	"context"
 
-	apitypes "github.com/docker/docker/api/types"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/convert"
-	"github.com/docker/docker/errdefs"
+	apitypes "moby/api/types"
+	types "moby/api/types/swarm"
+	"moby/daemon/cluster/convert"
+	"moby/errdefs"
 	swarmapi "github.com/docker/swarmkit/api"
 )
 

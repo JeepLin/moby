@@ -13,14 +13,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	testdaemon "github.com/docker/docker/internal/test/daemon"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/runconfig"
+	"moby/api/types"
+	"moby/api/types/versions/v1p20"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli"
+	"moby/integration-cli/daemon"
+	testdaemon "moby/internal/test/daemon"
+	"moby/pkg/stringid"
+	"moby/runconfig"
 	"github.com/docker/libnetwork/driverapi"
 	remoteapi "github.com/docker/libnetwork/drivers/remote/api"
 	"github.com/docker/libnetwork/ipamapi"
@@ -1782,7 +1782,7 @@ func (s *DockerNetworkSuite) TestDockerNetworkDisconnectFromBridge(c *check.C) {
 	c.Assert(err, check.IsNil)
 }
 
-// TestConntrackFlowsLeak covers the failure scenario of ticket: https://github.com/docker/docker/issues/8795
+// TestConntrackFlowsLeak covers the failure scenario of ticket: https://moby/issues/8795
 // Validates that conntrack is correctly cleaned once a container is destroyed
 func (s *DockerNetworkSuite) TestConntrackFlowsLeak(c *check.C) {
 	testRequires(c, IsAmd64, DaemonIsLinux, Network, SameHostDaemon)

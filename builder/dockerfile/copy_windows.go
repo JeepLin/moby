@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import (
 	"fmt"
@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Microsoft/go-winio"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/idtools"
+	"moby/pkg/reexec"
+	"moby/pkg/system"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 )

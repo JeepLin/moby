@@ -1,6 +1,6 @@
 // +build linux
 
-package aufs // import "github.com/docker/docker/daemon/graphdriver/aufs"
+package aufs // import "moby/daemon/graphdriver/aufs"
 
 import (
 	"crypto/sha256"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/daemon/graphdriver"
+	"moby/pkg/archive"
+	"moby/pkg/reexec"
+	"moby/pkg/stringid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

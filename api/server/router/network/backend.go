@@ -1,11 +1,11 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "moby/api/server/router/network"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/api/types/network"
 	"github.com/docker/libnetwork"
 )
 

@@ -1,11 +1,11 @@
 // +build !windows
 
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "moby/daemon/config"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/opts"
+	"moby/opts"
 	"github.com/docker/go-units"
 	"github.com/spf13/pflag"
 	"gotest.tools/assert"

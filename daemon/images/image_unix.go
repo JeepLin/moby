@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "moby/daemon/images"
 
 import (
 	"runtime"

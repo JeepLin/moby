@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "moby/registry"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	registrytypes "moby/api/types/registry"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

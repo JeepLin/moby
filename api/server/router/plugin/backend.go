@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/api/server/router/plugin"
+package plugin // import "moby/api/server/router/plugin"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/plugin"
+	enginetypes "moby/api/types"
+	"moby/api/types/filters"
+	"moby/plugin"
 )
 
 // Backend for Plugin

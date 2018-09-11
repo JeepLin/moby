@@ -14,7 +14,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/pkg/reexec"
+	"moby/pkg/reexec"
 	"github.com/docker/libnetwork/datastore"
 	"github.com/docker/libnetwork/driverapi"
 	"github.com/docker/libnetwork/netlabel"

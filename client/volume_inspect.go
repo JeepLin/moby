@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"bytes"
@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // VolumeInspect returns the information about a specific volume in the docker host.

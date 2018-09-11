@@ -1,4 +1,4 @@
-package ioutils // import "github.com/docker/docker/pkg/ioutils"
+package ioutils // import "moby/pkg/ioutils"
 
 import (
 	"context"

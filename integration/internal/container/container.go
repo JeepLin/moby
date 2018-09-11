@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
+	"moby/api/types"
+	"moby/api/types/container"
+	"moby/api/types/network"
+	"moby/client"
 	"gotest.tools/assert"
 )
 

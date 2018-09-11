@@ -1,6 +1,6 @@
 // +build darwin
 
-package pidfile // import "github.com/docker/docker/pkg/pidfile"
+package pidfile // import "moby/pkg/pidfile"
 
 import (
 	"golang.org/x/sys/unix"

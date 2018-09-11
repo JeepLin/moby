@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "moby/container"
 
 import (
 	"bytes"
@@ -15,27 +15,27 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/cio"
-	containertypes "github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/exec"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/jsonfilelog"
-	"github.com/docker/docker/daemon/logger/local"
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/signal"
-	"github.com/docker/docker/pkg/symlink"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/restartmanager"
-	"github.com/docker/docker/volume"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	containertypes "moby/api/types/container"
+	mounttypes "moby/api/types/mount"
+	swarmtypes "moby/api/types/swarm"
+	"moby/container/stream"
+	"moby/daemon/exec"
+	"moby/daemon/logger"
+	"moby/daemon/logger/jsonfilelog"
+	"moby/daemon/logger/local"
+	"moby/daemon/network"
+	"moby/errdefs"
+	"moby/image"
+	"moby/layer"
+	"moby/pkg/containerfs"
+	"moby/pkg/idtools"
+	"moby/pkg/ioutils"
+	"moby/pkg/signal"
+	"moby/pkg/symlink"
+	"moby/pkg/system"
+	"moby/restartmanager"
+	"moby/volume"
+	volumemounts "moby/volume/mounts"
 	"github.com/docker/go-units"
 	agentexec "github.com/docker/swarmkit/agent/exec"
 	"github.com/pkg/errors"
@@ -521,7 +521,7 @@ func (container *Container) StopTimeout() int {
 // The non-recommended host configuration in the start api can
 // make these fields nil again, this corrects that issue until
 // we remove that behavior for good.
-// See https://github.com/docker/docker/pull/17779
+// See https://moby/pull/17779
 // for a more detailed explanation on why we don't want that.
 func (container *Container) InitDNSHostConfig() {
 	container.Lock()

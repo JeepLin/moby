@@ -1,6 +1,6 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"errors"
@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
+	containertypes "moby/api/types/container"
+	"moby/container"
+	"moby/daemon/config"
 )
 
 type fakeContainerGetter struct {

@@ -1,11 +1,11 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "moby/distribution/xfer"
 
 import (
 	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/progress"
+	"moby/pkg/progress"
 )
 
 func TestTransfer(t *testing.T) {

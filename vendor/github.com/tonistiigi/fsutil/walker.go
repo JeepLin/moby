@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/fileutils"
+	"moby/pkg/fileutils"
 	"github.com/pkg/errors"
 )
 

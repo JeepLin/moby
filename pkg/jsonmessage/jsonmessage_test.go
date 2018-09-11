@@ -1,4 +1,4 @@
-package jsonmessage // import "github.com/docker/docker/pkg/jsonmessage"
+package jsonmessage // import "moby/pkg/jsonmessage"
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/term"
+	"moby/pkg/term"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

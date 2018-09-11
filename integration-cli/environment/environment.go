@@ -1,10 +1,10 @@
-package environment // import "github.com/docker/docker/integration-cli/environment"
+package environment // import "moby/integration-cli/environment"
 
 import (
 	"os"
 	"os/exec"
 
-	"github.com/docker/docker/internal/test/environment"
+	"moby/internal/test/environment"
 )
 
 var (

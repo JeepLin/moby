@@ -1,11 +1,11 @@
-package volumes // import "github.com/docker/docker/integration/plugin/volumes"
+package volumes // import "moby/integration/plugin/volumes"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/internal/test/environment"
+	"moby/internal/test/environment"
 )
 
 var (

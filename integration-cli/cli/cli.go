@@ -1,4 +1,4 @@
-package cli // import "github.com/docker/docker/integration-cli/cli"
+package cli // import "moby/integration-cli/cli"
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/integration-cli/environment"
+	"moby/integration-cli/daemon"
+	"moby/integration-cli/environment"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"

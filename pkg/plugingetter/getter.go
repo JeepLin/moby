@@ -1,10 +1,10 @@
-package plugingetter // import "github.com/docker/docker/pkg/plugingetter"
+package plugingetter // import "moby/pkg/plugingetter"
 
 import (
 	"net"
 	"time"
 
-	"github.com/docker/docker/pkg/plugins"
+	"moby/pkg/plugins"
 )
 
 const (

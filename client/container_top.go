@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
+	"moby/api/types/container"
 )
 
 // ContainerTop shows process information from within a container.

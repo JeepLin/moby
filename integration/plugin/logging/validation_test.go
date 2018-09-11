@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/internal/test/daemon"
+	"moby/api/types"
+	"moby/internal/test/daemon"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

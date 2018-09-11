@@ -1,4 +1,4 @@
-package streamformatter // import "github.com/docker/docker/pkg/streamformatter"
+package streamformatter // import "moby/pkg/streamformatter"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/jsonmessage"
+	"moby/pkg/jsonmessage"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"gotest.tools/assert"

@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/integration-cli/checker"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"moby/integration-cli/checker"
+	"moby/integration-cli/cli/build"
 	"github.com/go-check/check"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/icmd"

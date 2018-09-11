@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "moby/registry"
 
 import (
 	"io/ioutil"
@@ -10,9 +10,9 @@ import (
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/auth/challenge"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"moby/api/types"
+	registrytypes "moby/api/types/registry"
+	"moby/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

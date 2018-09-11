@@ -1,14 +1,14 @@
-package environment // import "github.com/docker/docker/internal/test/environment"
+package environment // import "moby/internal/test/environment"
 
 import (
 	"context"
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/internal/test"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/client"
+	"moby/internal/test"
 	"gotest.tools/assert"
 )
 

@@ -1,4 +1,4 @@
-package mount // import "github.com/docker/docker/pkg/mount"
+package mount // import "moby/pkg/mount"
 
 import (
 	"bufio"

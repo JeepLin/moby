@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/internal/test"
+	"moby/api/types"
+	"moby/api/types/swarm"
+	"moby/internal/test"
 	"gotest.tools/assert"
 )
 

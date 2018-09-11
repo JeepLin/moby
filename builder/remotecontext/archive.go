@@ -1,16 +1,16 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "moby/builder/remotecontext"
 
 import (
 	"io"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/tarsum"
+	"moby/builder"
+	"moby/pkg/archive"
+	"moby/pkg/chrootarchive"
+	"moby/pkg/containerfs"
+	"moby/pkg/ioutils"
+	"moby/pkg/tarsum"
 	"github.com/pkg/errors"
 )
 

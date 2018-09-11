@@ -1,13 +1,13 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
+	"moby/api/types"
+	"moby/api/types/filters"
+	"moby/api/types/swarm"
 )
 
 // TaskList returns the list of tasks.

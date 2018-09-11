@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"moby/pkg/idtools"
+	"moby/pkg/pools"
+	"moby/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

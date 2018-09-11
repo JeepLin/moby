@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "moby/daemon"
 
 import (
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/daemon/exec"
+	containertypes "moby/api/types/container"
+	"moby/container"
+	"moby/daemon/config"
+	"moby/daemon/exec"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

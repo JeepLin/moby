@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "moby/volume/mounts"
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/stringid"
+	"moby/api/types/mount"
+	"moby/pkg/stringid"
 )
 
 type windowsParser struct {

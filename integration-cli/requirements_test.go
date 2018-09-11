@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/requirement"
-	"github.com/docker/docker/internal/test/registry"
+	"moby/api/types"
+	"moby/api/types/swarm"
+	"moby/api/types/versions"
+	"moby/client"
+	"moby/integration-cli/requirement"
+	"moby/internal/test/registry"
 )
 
 func ArchitectureIsNot(arch string) bool {

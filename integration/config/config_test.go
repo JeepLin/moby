@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/integration/config"
+package config // import "moby/integration/config"
 
 import (
 	"bytes"
@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/pkg/stdcopy"
+	"moby/api/types"
+	"moby/api/types/filters"
+	swarmtypes "moby/api/types/swarm"
+	"moby/client"
+	"moby/integration/internal/swarm"
+	"moby/pkg/stdcopy"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

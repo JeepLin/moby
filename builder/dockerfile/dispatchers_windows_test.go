@@ -1,6 +1,6 @@
 // +build windows
 
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "moby/builder/dockerfile"
 
 import "testing"
 

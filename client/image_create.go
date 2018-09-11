@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "moby/client"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"moby/api/types"
 )
 
 // ImageCreate creates a new image based in the parent options.

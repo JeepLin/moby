@@ -1,6 +1,6 @@
 package daemon
 
-import "github.com/docker/docker/internal/test/environment"
+import "moby/internal/test/environment"
 
 // WithExperimental sets the daemon in experimental mode
 func WithExperimental(d *Daemon) {
